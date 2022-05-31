@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    
+}
+.section1{
+    background-color: blueviolet;
+}
+.section2{
+background-color: brown;
+}
+.section3
+{
+    background-color: aqua;
+}
+.section4{
+    background-color: chartreuse;
+}
+.section5{
+    background-color: darkgreen;
+}
+.to-top
+{
+    position: fixed;
+    right: 32px;
+    bottom: 15px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 32px;
+    pointer-events: none;
+    transition: all .5s ease 0s;
+    opacity: 0;
+
+}
+.to-top.xyz{
+    opacity: 1;
+    pointer-events: auto;
+}
